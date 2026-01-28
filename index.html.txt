@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neeli Srija | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header id="header">
+  <nav>
+    <h2 class="logo">Srija</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="themeToggle">🌙</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="reveal">Hi, I'm Neeli Srija</h1>
+    <h3>Frontend Developer | Problem Solver</h3>
+    <p>B.Tech CSE Student passionate about building user-friendly applications.</p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </div>
+  <div class="hero-img">
+    <img src="images/profile.jpg" alt="Srija Photo">
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Computer Science student with strong foundations in programming and web development, looking to grow as a software engineer.</p>
+  <ul class="facts">
+    <li>📍 Andhra Pradesh</li>
+    <li>💻 Java & Web Dev</li>
+    <li>🎯 CGPA: 9.08</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skill-box">
+    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+    <span>Java</span><span>SQL</span><span>Git</span>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>My Inspirations</h2>
+  <div class="gallery">
+    <img src="images/hobby1.jpg">
+    <img src="images/hobby2.jpg">
+    <img src="images/hobby3.jpg">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: neelisrija96@gmail.com</p>
+  <p><a href="https://github.com/Neelisrija">GitHub</a> | 
+     <a href="https://linkedin.com/in/neeli-srija-980364267">LinkedIn</a></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
